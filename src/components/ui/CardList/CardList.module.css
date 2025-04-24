@@ -1,0 +1,35 @@
+.containerCard {
+    width: 97%;
+    background-color: rgb(244, 225, 219);
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    display: flex; /* ✅ Aseguramos disposición en fila */
+    justify-content: space-between;
+    align-items: center; /* ✅ Centra verticalmente */
+    gap: 1rem;
+}
+
+.containerCard:hover {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 10px rgb(154, 42, 1); 
+}
+
+.actionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.4rem;
+}
+
+.actionCard button {
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    background-color: rgb(241, 148, 48);
+    border-radius: 10rem;
+    border: none;
+}
+
+.actionCard button:hover {
+    background-color: rgb(235, 59, 0);
+    color: white;
+}
